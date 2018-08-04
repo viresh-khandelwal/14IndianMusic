@@ -1,0 +1,56 @@
+//imports
+@import '~global-styles/variables';
+
+header{
+    background-color: $box-background;
+    opacity: $box-opacity;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #632e09;
+}
+
+h1{
+    text-align: center;
+}
+
+h1 img{
+    width: 2.6em;
+    height: 2.6em;
+}
+
+.indian-music-heading-text{
+    font-size: 2.7em;
+    vertical-align: middle;
+}
+
+.login-signup{
+    font-size: 18px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+//Media queries
+
+//max width 1200px
+@media screen and (max-width: 1200px){
+
+}
+
+//max width 992px
+@media screen and (max-width: 992px){
+    
+}
+
+//max width 768px
+@media screen and (max-width: 992px){
+    .indian-music-heading-text{
+        font-size: 1.5em;
+    }
+
+    h1 img{
+        width: 50px;
+        height: 35px;
+    }
+}
+
