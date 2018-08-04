@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './musicinstruments.component.html',
   styleUrls: ['./musicinstruments.component.css']
 })
-export class MusicinstrumentsComponent implements OnInit {
+export class MusicInstrumentsComponent implements OnInit {
 
   constructor() { }
 

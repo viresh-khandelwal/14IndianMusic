@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule , Routes} from '@angular/router';
-import { MusicInstrumentsComponent } from '../musicinstruments/musicinstruments.component';
+import { TrendsComponent } from '../trends.component';
 
 let routes: Routes = [
-  {path: '' , component: MusicInstrumentsComponent}
+  {path: '' , component: TrendsComponent}
 ]
 
 @NgModule({
@@ -14,4 +14,4 @@ let routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class InstrumentsRoutingModule { }
+export class LatestTrendsRoutingModule { }
