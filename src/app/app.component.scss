@@ -6,20 +6,19 @@ header{
     opacity: $box-opacity;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #632e09;
-}
-
-h1{
     text-align: center;
 }
 
-h1 img{
-    width: 2.6em;
-    height: 2.6em;
+h1{
+    font-size: 5.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-inline-start: 10px;
 }
 
-.indian-music-heading-text{
-    font-size: 2.7em;
-    vertical-align: middle;
+.logo{
+    width: 5.5em;
+    height: 5.5em;
 }
 
 .login-signup{

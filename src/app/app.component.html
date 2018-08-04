@@ -1,17 +1,17 @@
 <header>
-  <h1>
+
       <span>
-        <img src="../assets/images/Transparent_Heart_of_Hearts_PNG_Picture.png"/>
+        <img class = 'logo' src="../assets/images/Transparent_Heart_of_Hearts_PNG_Picture.png"/>
       </span>
-      <span class="indian-music-heading-text">
+      <h1>
            Indian Music
-      </span>
+      </h1>
       <span class = "login-signup">
-        <a [routerLink] = "">Login</a>
+        <a [routerLink] = "['accounts','login']">Login</a>
         <span> | </span>
-        <a [routerLink] = "">SignUp</a>
+        <a [routerLink] = "['accounts','signup']">SignUp</a>
       </span>
-  </h1>
+
 </header>
 <section class="routes-section">
   <router-outlet></router-outlet>
