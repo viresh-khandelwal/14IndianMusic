@@ -1,6 +1,4 @@
-import { Component } from '@angular/core';
-import { AccordionModule } from 'primeng/accordion';     //accordion and accordion tab
-import { MenuItem } from 'primeng/api';   
+import { Component } from '@angular/core'; 
 import { AppConfigs } from './appconfigs';
 
 @Component({
@@ -11,6 +9,5 @@ import { AppConfigs } from './appconfigs';
 export class AppComponent {
   private appConfigs = new AppConfigs();
   ngOnInit() {
-    alert(this.appConfigs.baseImagesPath);
   }
 }

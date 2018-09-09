@@ -29,10 +29,18 @@ h1{
 }
 
 .search-music-container{
+    text-align: initial;
     display: inline-block;
     width: 15%;
     border:1px solid black;
 
+}
+
+.search-icon{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   background: url('../assets/images/icons2.png') 243px 0;
 }
 
 

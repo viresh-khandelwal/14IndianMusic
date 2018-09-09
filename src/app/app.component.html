@@ -8,22 +8,17 @@
       </h1>
       <div class="search-music-container">
         <div class="search-icon-container">
-          <span class="" id="">
-          <img src = "{{appConfigs.baseImagesPath}}search-icon.png" width = "10px" height = "20px"/>
-          </span>
+          <span class="search-icon"></span>
         </div>
-        <input type="text" class="form-control" aria-label="search music" placeholder="search music...">
       </div>
       <span class = "login-signup">
         <a [routerLink] = "['accounts','login']">Login</a>
         <span> | </span>
         <a [routerLink] = "['accounts','signup']">SignUp</a>
       </span>
-
 </header>
 <section class="routes-section">
   <router-outlet></router-outlet>
 </section>
-
 
 
