@@ -1,11 +1,19 @@
 <header>
 
       <span>
-        <img class = 'logo' src="../assets/images/Transparent_Heart_of_Hearts_PNG_Picture.png"/>
+        <img class = 'logo' src="{{appConfigs.baseImagesPath}}Transparent_Heart_of_Hearts_PNG_Picture.png"/>
       </span>
       <h1>
            Indian Music
       </h1>
+      <div class="search-music-container">
+        <div class="search-icon-container">
+          <span class="" id="">
+          <img src = "{{appConfigs.baseImagesPath}}search-icon.png" width = "10px" height = "20px"/>
+          </span>
+        </div>
+        <input type="text" class="form-control" aria-label="search music" placeholder="search music...">
+      </div>
       <span class = "login-signup">
         <a [routerLink] = "['accounts','login']">Login</a>
         <span> | </span>
