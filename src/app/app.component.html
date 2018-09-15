@@ -1,24 +1,23 @@
 <header>
 
-      <span>
-        <img class = 'logo' src="{{appConfigs.baseImagesPath}}Transparent_Heart_of_Hearts_PNG_Picture.png"/>
-      </span>
-      <h1>
-           Indian Music
-      </h1>
-      <div class="search-music-container">
-        <div class="search-icon-container">
-          <span class="search-icon"></span>
-        </div>
-      </div>
-      <span class = "login-signup">
-        <a [routerLink] = "['accounts','login']">Login</a>
-        <span> | </span>
-        <a [routerLink] = "['accounts','signup']">SignUp</a>
-      </span>
+  <span>
+    <img class='logo' src="{{appConfigs.baseImagesPath}}Transparent_Heart_of_Hearts_PNG_Picture.png" />
+  </span>
+  <h1>
+    Indian Music
+  </h1>
+  <span class="login-signup">
+    <a [routerLink]="['accounts','login']">Login</a>
+    <span> | </span>
+    <a [routerLink]="['accounts','signup']">SignUp</a>
+  </span>
+  <div class="search-music-container">
+    <div class="form-group has-search">
+      <span class="fa fa-search search-icon-container"></span>
+      <input type="text" class="form-control" placeholder="Search">
+    </div>
+  </div>
 </header>
 <section class="routes-section">
   <router-outlet></router-outlet>
 </section>
-
-
