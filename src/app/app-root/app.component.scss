@@ -56,27 +56,40 @@ h1{
 
 //Media queries
 
-//max width 1200px
-@media screen and (max-width: 1200px){
-
-}
-
-//max width 992px
-@media screen and (max-width: 992px){
-    
-}
-
 //max width 768px
 @media screen and (max-width: 992px){
-    .indian-music-heading-text{
-        font-size: 1.5em;
+   
+}
+
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+    h1{
+        font-size: 3em;
     }
 
-    h1 img{
-        width: 50px;
-        height: 35px;
+    .logo{
+        width: 3em;
+        height: 3em;
     }
-}
+
+   
+    .search-music-input{
+        font-size: 12.5px;
+        height: 20px;
+        padding: 15px 20%;
+    }
+
+    .search-music-container{
+        width: 20%;
+    }
+
+    .has-search .search-icon-container {
+        line-height: 32px;
+    }
+
+    .login-signup{
+        font-size: 16px;
+    }
+ }
 
 
 

@@ -7,7 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { LatestTrendsModule } from './latest-trends/latest-trends.module';
 
 //compoents
-import { AppComponent } from './app.component';
+import { AppComponent } from './app-root/app.component';
 import { HomeComponent } from './home/home.component';
 
 @NgModule({

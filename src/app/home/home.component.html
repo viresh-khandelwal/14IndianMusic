@@ -1,28 +1,30 @@
 <section class="home-container row">
-    <div class= "col-lg-6 col-md-6 col-xs-6 col-sm-6">
-     <P>
-         If you are already here it means you love indian music . Welcome to this beautiful compilation of data about Indian music , instruments , musicians and songs . Feel free to showcase your talent in the fresh voices section.
-     </P>
-     <div class="fresh-voices-container">
-         fresh-voices-section
-     </div>   
-     </div>
-     <div class= "row music-data-container col-lg-6 col-md-6 col-xs-6 col-sm-6">
-         <a [routerLink] = "['musicians-and-songs','musicians']" class = "musicians music-data col-lg-5 col-md-5 col-xs-5 col-sm-5">
-             musicians
-         </a>
-         <a [routerLink] = "['instruments']" class = "music-instruments music-data col-lg-5 col-md-5 col-xs-5 col-sm-5">
-                music-instruments
-         </a>
-         <a [routerLink] = "['musicians-and-songs','songs']" class = "songs music-data col-lg-5 col-md-5 col-xs-5 col-sm-5">
-             songs
-         </a>
-         <a [routerLink] = "['latest-trends']" class = "latest-bollywood music-data col-lg-5 col-md-5 col-xs-5 col-sm-5">
-             latest bollywood
-         </a>
-         <a [routerLink] = "['latest-trends']" class = "latest-international music-data col-lg-5 col-md-5 col-xs-5 col-sm-5">
-             latest international
-         </a>
-     </div>
+    <div class="col-lg-7 col-md-7 col-xl-7 col-sm-7">
+        <P>
+            If you are already here it means you love indian music . Welcome to this beautiful compilation of data about Indian music
+            , instruments , musicians and songs . Feel free to showcase your talent in the fresh voices section.
+        </P>
+        <div class="fresh-voices-container">
+            fresh-voices-section
+        </div>
+    </div>
+    <div class="row music-data-container col-lg-5 col-md-5 col-xl-5 col-sm-5">
+        <a [routerLink]="['musicians-and-songs','songs']" class="songs music-data col-lg-12 col-md-12 col-xl-12 col-sm-12">
+            songs
+        </a>
+        <a [routerLink]="['musicians-and-songs','musicians']" class="musicians music-data col-lg-6 col-md-6 col-xl-6 col-sm-6">
+            musicians
+        </a>
+        <a [routerLink]="['instruments']" class="music-instruments music-data col-lg-6 col-md-6 col-xl-6 col-sm-6">
+            music-instruments
+        </a>
+
+        <a [routerLink]="['latest-trends']" class="latest-bollywood music-data col-lg-6 col-md-6 col-xl-6 col-sm-6">
+            latest bollywood
+        </a>
+        <a [routerLink]="['latest-trends']" class="latest-international music-data col-lg-6 col-md-6 col-xl-6 col-sm-6">
+            latest international
+        </a>
+    </div>
 
 </section>
