@@ -1,5 +1,38 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {} 
+@media only screen and (max-width: 767px) {
+    .login-signup, .search-music-container{
+        display: none;
+    }
+    .account-and-search-mobile{
+        display: inline-block;
+        display: inline-block;
+        width: 10px 15%;
+        width: 25%;
+        margin-top: 10px;
+    }
+
+
+    .account-and-search-mobile{
+        float: right;
+     }
+     
+     .account-and-search-mobile .fa-user, .account-and-search-mobile .fa-search, 
+     .account-and-search-mobile .fa-home{
+         margin: 0 9%;
+     }
+     
+     
+
+    .logo{
+        width: 2em;
+        height: 2em;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+} 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 767px){} 

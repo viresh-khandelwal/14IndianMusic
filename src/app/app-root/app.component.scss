@@ -14,6 +14,7 @@ h1{
     display: inline-block;
     vertical-align: middle;
     margin-inline-start: 10px;
+    color: #523636;
 }
 
 .logo{
@@ -21,38 +22,72 @@ h1{
     height: 5.5em;
 }
 
-.login-signup{
-    font-size: 18px;  
-}
+//login-signup
 
-.search-music-container{
-    display: inline-block;
-    width: 15%;
-}
+    .login-signup{
+        font-size: 18px; 
+    }
 
-.login-signup , .search-music-container{
-    float: right;
-    margin: 10px 1% 0 0;
-}
+    .login-signup a, .login-signup{
+        color : #523636;
+    }
 
-/* Bootstrap 4 text input with search icon */
+    .search-music-container{
+        display: inline-block;
+        width: 15%;
+    }
 
-.has-search .form-control {
-    padding-left: 2.375rem;
-}
+    .login-signup , .search-music-container{
+        float: right;
+        margin: 10px 1% 0 0;
+    }
 
-.has-search .search-icon-container {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-}
+//music search input
+  
+ // Bootstrap 4 text input with search icon 
+    .has-search .form-control {
+        padding-left: 2.375rem;
+    }
 
+    .has-search .search-icon-container {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 2.375rem;
+        height: 2.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #aaa;
+    }
+
+    .account-and-search-mobile{
+        display: none;
+    }
+
+
+    .search-music-input{
+        color : #523636;;
+    }
+    .search-music-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #523636;
+        opacity: 1; /* Firefox */
+    }
+
+    .search-music-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #523636;
+    }
+
+    .search-music-input::-ms-input-placeholder { /* Microsoft Edge */
+        color: #523636;
+    }
+
+    .search-music-input:focus{
+        background-color: #fff;
+        border-color: #523636;
+        outline: 0;
+        box-shadow: 0 0 0 0.1rem rgb(160, 114, 92);
+    }
 
 //Media queries
 

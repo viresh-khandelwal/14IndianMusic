@@ -9,11 +9,13 @@ import { LatestTrendsModule } from './latest-trends/latest-trends.module';
 //compoents
 import { AppComponent } from './app-root/app.component';
 import { HomeComponent } from './home/home.component';
+import { MainNavigationMenuComponent } from './app-root/main-navigation-menu/main-navigation-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent  
+    HomeComponent,
+    MainNavigationMenuComponent
   ],
   imports: [
     BrowserModule,
