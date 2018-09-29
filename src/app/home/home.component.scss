@@ -25,8 +25,12 @@
 
 .music-data{
     color: white;
-    min-height: 100px;
+    min-height: 150px;
     border: 1px solid white;
+}
+
+.home-songs-cover{
+    background: url('../../assets/images/songs-cover-image.jpg') right / cover no-repeat;
 }
 
 //for mobile views
