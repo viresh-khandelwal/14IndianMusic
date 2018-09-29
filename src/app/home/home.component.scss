@@ -1,5 +1,13 @@
-p{
+.welcome-message{
     color:white;
+}
+
+.trends-carousal-container{
+    width: 100%; 
+    height:100px; 
+    border: 1px solid white;
+    margin-bottom: 10px;
+    color: white;
 }
 
 
@@ -19,6 +27,13 @@ p{
     color: white;
     min-height: 100px;
     border: 1px solid white;
+}
+
+//for mobile views
+@media only screen and (max-width: 767px) {
+  .music-data-container{
+      display: none;
+  }
 }
 
 

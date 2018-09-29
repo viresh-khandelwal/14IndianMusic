@@ -1,9 +1,12 @@
 <section class="home-container row">
-    <div class="col-lg-7 col-md-7 col-xl-7 col-sm-7">
-        <P>
+    <div class="col-lg-7 col-md-7 col-xl-7 col-sm-12">
+        <P class = "welcome-message" *ngIf = "showWelcomeMessage">
             If you are already here it means you love indian music . Welcome to this beautiful compilation of data about Indian music
             , instruments , musicians and songs . Feel free to showcase your talent in the fresh voices section.
         </P>
+        <div class = "trends-carousal-container"  *ngIf = "!showWelcomeMessage">
+            trends carousal
+        </div>
         <div class="fresh-voices-container">
             fresh-voices-section
         </div>

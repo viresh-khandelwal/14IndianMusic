@@ -1,0 +1,16 @@
+nav ul{
+    color : white;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    color: white;
+    margin: 7px 1%;
+}
+
+@media screen and (max-width: 370px){
+    nav ul{
+        font-size: 10px;
+    }
+} 
