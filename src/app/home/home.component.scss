@@ -33,6 +33,17 @@
     background: url('../../assets/images/songs-cover-image.jpg') right / cover no-repeat;
 }
 
+.home-musicians-cover{
+    background: url('../../assets/images/musicians-cover-image.jpg') right / cover no-repeat; 
+}
+
+.home-instruments-cover{
+    background: url('../../assets/images/app-background.jpg') right / cover no-repeat;  
+}
+.international-cover{
+    background: url('../../assets/images/international-music-cover.jpg') right / cover no-repeat; 
+}
+
 //for mobile views
 @media only screen and (max-width: 767px) {
   .music-data-container{
