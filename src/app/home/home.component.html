@@ -7,9 +7,7 @@
         <div class = "trends-carousal-container"  *ngIf = "!showWelcomeMessage">
             trends carousal
         </div>
-        <div class="fresh-voices-container">
-            fresh-voices-section
-        </div>
+        <app-fresh-voices></app-fresh-voices>
     </div>
     <div class="row music-data-container col-lg-5 col-md-5 col-xl-5 col-sm-5">
         <a [routerLink]="['latest-trends']" class="music-data col-lg-12 col-md-12 col-xl-12 col-sm-12">

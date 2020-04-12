@@ -10,12 +10,14 @@ import { LatestTrendsModule } from './latest-trends/latest-trends.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MainNavigationMenuComponent } from './main-navigation-menu/main-navigation-menu.component';
+import { FreshVoicesComponent } from './home/fresh-voices/fresh-voices.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    MainNavigationMenuComponent
+    MainNavigationMenuComponent,
+    FreshVoicesComponent
   ],
   imports: [
     BrowserModule,
