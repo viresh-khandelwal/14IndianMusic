@@ -1,16 +1,29 @@
-h2{
+.fresh-voices-container{
     color:white;
+}
+h2{   
     display: inline;
 }
 
 .fa-music{
-    color: white;
     font-size: 1.8rem;
     margin-left: 8px;
     display: inline-block;
     vertical-align: 2px;
 }
 
-.fresh-voices-list li{
-    padding-top: 15px;
+.fresh-voices-list li hr{
+  border-top: 2px solid #b96a6a;
+  margin-top: 10px;
+}
+
+//for mobile views
+@media only screen and (max-width: 1024px) {
+    Ul{
+        width: 100%;
+    }
+    .fresh-voices-list li iframe{
+        width:100%;
+        height:200px
+    }
 }
