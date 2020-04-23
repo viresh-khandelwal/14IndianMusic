@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     setTimeout(() => {
       this.showWelcomeMessage = screen.width < 768 ? false : true;
-    }, 3000);
+    }, 30000);
   }
 
 }
